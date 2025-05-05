@@ -1,0 +1,6 @@
+@LeuJo.Demo.Security.WebHost_HostAddress = http://localhost:5026
+
+GET {{LeuJo.Demo.Security.WebHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

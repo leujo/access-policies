@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.15" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeuJo.Demo.Recruitment.RequisitionsAccess\LeuJo.Demo.Recruitment.RequisitionsAccess.csproj" />
+    <ProjectReference Include="..\LeuJo.Demo.Recruitment.ApprovementsAccess\LeuJo.Demo.Recruitment.ApprovementsAccess.csproj" />
+    <ProjectReference Include="..\LeuJo.Demo.Recruitment.MarketManager\LeuJo.Demo.Recruitment.MarketManager.csproj" />
+  </ItemGroup>
+
+</Project>

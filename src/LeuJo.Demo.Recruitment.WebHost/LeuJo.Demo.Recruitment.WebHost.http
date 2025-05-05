@@ -1,0 +1,6 @@
+@LeuJo.Demo.Recruitment.WebHost_HostAddress = http://localhost:5185
+
+GET {{LeuJo.Demo.Recruitment.WebHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
